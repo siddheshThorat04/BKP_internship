@@ -28,6 +28,7 @@ export default function Login() {
         toast.success("Login successful");
         localStorage.setItem("bkpAuth", JSON.stringify(data.user));
         setauthUser(data.user);
+        window.location.href = "/intern";
       } else {
         console.error("Login failed");
         const errText = await res.text();

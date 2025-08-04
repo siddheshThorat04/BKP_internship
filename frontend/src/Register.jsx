@@ -48,8 +48,10 @@ export default function AuthPage() {
     } else {
       const result = await res.json();
       toast.success("User registered successfully");
+
       localStorage.setItem("bkpAuth", JSON.stringify(result.user));
       setauthUser(result.user);
+      window.location.href = "/intern";
       console.log("Success:", result);
     }
   } catch (err) {
