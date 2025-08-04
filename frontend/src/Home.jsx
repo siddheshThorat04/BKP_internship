@@ -5,6 +5,7 @@ export default function HomePage() {
     <div className="bg-white text-gray-800">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-yellow-100 to-orange-200 p-8 text-center">
+        <a href="https://github.com/siddheshThorat04/BKP_internship">Github</a>
       <img src="https://bastikipathshala.org/wp-content/uploads/2024/02/Basti-Ki-Pathshala-Official-Logo.jpg" className="h-20 rounded-lg"  alt="" />
         <h1 className="text-5xl font-bold mb-4">Basti Ki Pathshala</h1>
         <p className="text-xl mb-6 max-w-2xl">
